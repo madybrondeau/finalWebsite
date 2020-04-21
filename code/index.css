@@ -1,0 +1,60 @@
+#container
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 200px  minmax(250px, 1.5fr) minmax(250px, 1fr) 75px;
+
+    grid-template-areas:
+            "header"
+            "main"
+            "aside"
+            "footer";
+}
+header
+{
+    grid-area: header;
+    background-color: #EEE0D6;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Alegreya Sans SC Light', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header img
+{
+    width: 400px;
+    margin-top: 50px;
+}
+
+main
+{
+    background-color: #BAC4BA;
+}
+
+#image1
+{
+
+}
+
+#image2
+{
+
+}
+
+#image3
+{
+
+}
+
+aside
+{
+    grid-area: aside;
+    background-color: #EEE0D6;
+}
+
+footer
+{
+    grid-area: footer;
+    background-color: #8C8E6F;
+}
